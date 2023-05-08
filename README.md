@@ -11,7 +11,7 @@ To run the game, you will need to install Python 3 and Pygame. You can do this u
 
 Once you have installed Pygame, you can run the simulation locally by running the `main.py` script under the `simulation` directory:
 
-`python simulation/main.py`
+`python3 simulation/main.py`
 
 The Game
 ----------------
