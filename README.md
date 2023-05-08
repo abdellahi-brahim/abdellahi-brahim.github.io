@@ -22,3 +22,5 @@ The first player to reach the last square wins.
 
 ![image](https://user-images.githubusercontent.com/79083991/236770147-c9222910-43f0-4917-b99e-e95d41ef7148.png)
 
+You can access the simulation at: abdellahi.me
+
