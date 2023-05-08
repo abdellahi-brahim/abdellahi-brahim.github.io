@@ -31,6 +31,7 @@ def main():
         28: 84,
         51: 67,
         71: 91,
+        87: 94,
         78: 98
     }
 
@@ -38,6 +39,8 @@ def main():
 
     game = Game(players, board)
     game.play()
-    anim = asyncio.run(Renderer.render_game(board, game.history))  # Store the FuncAnimation object
+    
+    renderer = Renderer()
+    anim = asyncio.run(renderer.render_game(board, game.history))  # Store the FuncAnimation object
 
 main()
